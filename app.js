@@ -14,12 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
         pintarCarrito()
     }
 })
-cards.addEventListener('click', e => {
-    addCarrito(e)
-})
-items.addEventListener('click', e => {
-    btnAccion(e)
-})
+cards.addEventListener('click', e => addCarrito(e));
+items.addEventListener('click', e => btnAccion(e));
 
 
 const fetchData = async () => {
